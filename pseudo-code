@@ -1,0 +1,131 @@
+// // for(i = 0; i<questions[qNumber].choices.length; i++){
+        //     var li_elem = $("<li>");
+        //     var answersEl = $("<button>");
+       
+        // $(answersEl).on("click", function (event){
+        //     event.preventDefault();
+        //         if(questions[qNumber].answer == event.target.innerText){
+        //             answerResDiv.show();
+        //             $(answerResDiv).append("<h2>" + "Correct!" + "</h2>");
+        //             localStorage.setItem("current score", userScore + 20);
+        //         console.log("Correct!");
+        //         }
+        //         else{
+        //             answerResDiv.show();
+        //             $(answerResDiv).append("<h2>" + "Incorrect!" + "</h2>");
+        //             localStorage.setItem("current score", userScore - 20); 
+        //         console.log("Incorrect")
+        //         }
+        //         if(answersEl = true){
+        //             console.log("true!");
+               
+        //     })}};
+            
+
+            //// //alert "correct!" in answerResult div//
+                //wait 2 seconds and then populate next question//
+                
+                // if(answerResult === "Correct!"){
+                    
+                // }
+                // else{
+                    
+                // }
+                // var finalScore = localStorage.getItem(userScore);
+                // // questionDiv.hide();
+                // // answerDiv.hide();
+                // qNumber++
+                // console.log(qNumber);
+            
+            // setNextQuestion();////
+
+//create a function to start timer
+// in thus function use setInterval to create a reocurring function that will update the time remaining
+
+//take event handler out of the loop
+// use event delegation (Esxercises 18/19) to register the event listener
+// when the user selects an answer 
+// after chekcing for correctness, increment question index
+// and render next question
+// if no more questions call an endgame function
+           
+//create an endgame function that
+//clears the timer interval
+// prompt user for initials
+// store initials and score in local storage.
+
+
+//answerResult:
+<--make placeholder in HTML-->
+var correctAnswer = "Correct!"
+var wrongAnswer = "Incorrect!"
+
+//score:
+var score = localStorage.setItem(userScore);
+if(answerResult === "Correct!"){
+    userScore + 20
+}
+else{
+    userScore - 20
+}
+if(initials = true){
+    localStorage.setItem(initials)
+}
+else{
+    alert "please enter initials"
+}
+var finalScore = localStorage.getItem(userScore)
+alert userScore
+
+
+//timer:
+if(correctAnswer){
+    time + 10 seconds
+}
+else{
+    time - 10 seconds
+}
+
+var score = localStorage.setItem("Current Score", currentScore);
+var userScore = "";
+var currentScore = 0;
+
+userScore = currentScore + 20
+
+///figures out the highest number
+.sort
+
+//
+var currentScore = 
+scoreCount = 20
+
+function setScore(){
+    var saveUser = []
+    saveUser.push({initials: "initials", score: "score"})
+    localStorage.setItem(JSON.stringify(saveUser))
+}
+
+//timer//
+
+
+var totalSeconds = 120
+var secondsElapsed = 0
+
+function startCountdown(){
+    var secondsLeft = totalSeconds - secondsElapsed
+
+
+    if ( incorrect answer ){
+
+    interval = setInterval(function()){
+        totalSeconds - 30
+        renderTime();
+    } 1000
+}
+    if(totalSeconds =< 0){
+        clearInterval(interval);
+        endGame();
+    }
+    
+}
+};
