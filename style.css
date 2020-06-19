@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.timer{
+    color: blue;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home{
+    text-align: center;
+}
+.home h1{
+    color: blue;
+    font-family: Staatliches;
+    font-size: 70px;
+}
+.start-btn{
+    padding: 4px;
+    background-color: rgb(132, 208, 249);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+body{
+    color: rgb(164, 164, 216);
+}
